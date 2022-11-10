@@ -6,15 +6,16 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
     outline: 0;
+    
 
 
 
 }
 
-.main-login{
+.main-login{  /* estilização da tela de login! */
         width: 100vw;
         height: 100vh;
-        background: #201b2c;
+        background-image: radial-gradient(circle at 60.61% 89.61%, #aa55d8 0, #aa55d8 50%, #aa55d8 100%);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,6 +24,25 @@
         margin-top: -10px;
         margin-bottom: -20px;
 }
+
+h2{
+
+    width: 60vw;
+    margin-bottom: 70vh;
+    font-family: arial;
+    font-size: 20px;
+    animation: go-back 1s infinite alternate;
+
+}
+
+@keyframes go-back {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 
 
 .left-login{
@@ -37,11 +57,7 @@
 
 }
 
-.left-login> h1 {
-    color: #77ffc0;
-    font-size: 3vw;
 
-}
 
 .right-login{
 
@@ -54,7 +70,7 @@
 
 }
 
-.card-login{
+.card-login{  /* estilização do box! */
     width: 60%;
     display: flex;
     justify-content: center;
@@ -84,7 +100,8 @@
 
 }
 
-.textfield > input{
+
+.textfield > input{ /* estilização do botão! */
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -108,20 +125,7 @@
     color: #f0ffff94;
 }
 
-.btn-login{
-    width: 100%;
-    padding: 16px 0px;
-    margin: 25px;
-    border: none;
-    border-radius: 8px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    color: #2b134b;
-    background: #00ff88;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px - 12px #00ff8052;
-}
+
 
 .left-login-img{
     width: 25vw;

@@ -7,23 +7,26 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <script src="main.js"></script>
 
-    <title>Consulta de Cep</title>
+    <title>INFORME O CEP</title>
 </head>
 <body> 
 
 <div class="main-login">
     <div class="left-login">
+
+        <h2>Esta aplicação ajuda você a encontrar um CEP e dados<br>
+             relacionados a ele. </h2>
         
     </div>
 
     <div class="right-login">
-       <div class="card-login">
-
-        <h1>informe o cep</h1>
-
+    <div class="card-login">
+            
+        <h1>Digite o Cep</h1>
+    
           <div class="textfield">
               <label for="cep">cep</label> 
-              <input type="text" id="cep" placeholder="cep" >
+              <input type="text" id="cep" placeholder="cep" onChange="startEvent()" />
           </div>
 
         <div class="textfield">
