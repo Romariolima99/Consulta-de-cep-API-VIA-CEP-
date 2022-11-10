@@ -15,14 +15,14 @@
 .main-login{  /* estilização da tela de login! */
         width: 100vw;
         height: 100vh;
-        background-image: radial-gradient(circle at 60.61% 89.61%, #aa55d8 0, #aa55d8 50%, #aa55d8 100%);
+        background: #2f2841;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: -10px;
-        margin-right: -5px;
+        margin-right: -15px;
         margin-top: -10px;
-        margin-bottom: -20px;
+        margin-bottom: -30px;
 }
 
 h2{
@@ -32,6 +32,9 @@ h2{
     font-family: arial;
     font-size: 20px;
     animation: go-back 1s infinite alternate;
+    color: #fff;
+    margin-left: 150vh;
+    
 
 }
 
@@ -55,6 +58,13 @@ h2{
     flex-direction: column;
     
 
+}
+
+.img-postal{
+    width: 400px;
+    margin-right: 50vh;
+    margin-top: 30vh;
+  
 }
 
 
@@ -87,6 +97,7 @@ h2{
     color: #00ff88;
     font-weight: 800;
     margin: 0;
+    
 
 }
 
